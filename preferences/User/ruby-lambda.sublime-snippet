@@ -1,6 +1,0 @@
-<snippet>
-  <content><![CDATA[->$1 { $2 }]]></content>
-  <tabTrigger>lam</tabTrigger>
-  <description>Lambda</description>
-  <scope>source.ruby</scope>
-</snippet>

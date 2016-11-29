@@ -1,39 +1,58 @@
 {
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/iPlastic (SL).tmTheme",
-	"copy_with_empty_selection": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
+	"binary_file_patterns":
+	[
+		"dist/*",
+		"node_modules/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*/uc_wsdl.html",
+		"*.log",
+		"*/React/coverage/*",
+		"*freshdesk_list_tickets.txt"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"file_exclude_patterns":
 	[
-		".tags",
-		".tags_sorted_by_file"
+		"stats.generated.json",
+		"*min.js",
+		"*min.map",
+		"*min.css"
 	],
-	"font_size": 15,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
+	"font_size": 12.0,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"margin": 2,
-	"new_window_settings":
+	"path":
 	{
-		"show_minimap": false
+		"osx":
+		[
+			"/Users/M/.rbenv/shims",
+			"/usr/bin",
+			"/bin",
+			"/usr/sbin",
+			"/sbin"
+		]
 	},
 	"rulers":
 	[
-		100
+		80
 	],
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
-	"word_wrap": false
+	"tabs_medium": false,
+	"tabs_padding_small": true,
+	"tabs_small": true,
+	"theme": "Afterglow-blue.sublime-theme",
+	"translate_tabs_to_spaces": false
 }
